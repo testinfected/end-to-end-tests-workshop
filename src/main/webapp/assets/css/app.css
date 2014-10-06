@@ -1,0 +1,11 @@
+.vertical-center {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+#search-form {
+    width: 40%;
+    margin: auto;
+}

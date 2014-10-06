@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebDriver Workshop</title>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/images/favicon-128x128.png" sizes="128x128">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+<div class="container vertical-center" role="main">
+    <table class="table">
+        <thead>
+        <tr><th>#</th><th>First Name</th><th>Last Name</th></tr>
+        </thead>
+        <tbody>
+        {{#this}}
+        <tr id="user-{{id}}"><td class="id">{{id}}</td><td class="first-name">{{firstName}}</td><td class="last-name">{{lastName}}</td></tr>
+        {{/this}}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
