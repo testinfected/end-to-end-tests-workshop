@@ -1,4 +1,7 @@
-package workshop;
+package features.support;
+
+import workshop.Example;
+import workshop.UserAccount;
 
 import java.io.File;
 

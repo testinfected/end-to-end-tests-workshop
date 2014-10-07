@@ -1,12 +1,11 @@
-package workshop.features;
+package features;
 
+import features.support.ApplicationDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import workshop.Account;
-import workshop.ApplicationDriver;
 
-import static workshop.Account.account;
+import static features.support.Account.account;
 
 public class SearchFeature {
 

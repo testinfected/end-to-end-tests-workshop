@@ -1,4 +1,4 @@
-package workshop.pages;
+package features.pages;
 
 import com.objogate.wl.web.AsyncWebDriver;
 import org.openqa.selenium.By;

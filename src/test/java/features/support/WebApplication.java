@@ -1,12 +1,12 @@
-package workshop;
+package features.support;
 
 import com.objogate.wl.UnsynchronizedProber;
 import com.objogate.wl.web.AsyncWebDriver;
 import com.vtence.molecule.WebServer;
+import features.pages.LoginPage;
+import features.pages.SearchPage;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import workshop.pages.LoginPage;
-import workshop.pages.SearchPage;
-import workshop.pages.UsersPage;
+import workshop.Example;
 
 public class WebApplication {
     public static final int PORT = 9999;

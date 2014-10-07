@@ -1,4 +1,4 @@
-package workshop.support;
+package unit.support;
 
 import org.cyberneko.html.parsers.DOMParser;
 import org.w3c.dom.Document;

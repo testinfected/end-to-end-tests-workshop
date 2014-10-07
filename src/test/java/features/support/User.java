@@ -1,6 +1,6 @@
-package workshop;
+package features.support;
 
-import workshop.activities.UserManagement;
+import features.activities.UserManagement;
 
 public class User {
     private final WebApplication app;

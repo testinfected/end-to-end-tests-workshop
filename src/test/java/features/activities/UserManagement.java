@@ -1,7 +1,7 @@
-package workshop.activities;
+package features.activities;
 
-import workshop.Account;
-import workshop.WebApplication;
+import features.support.Account;
+import features.support.WebApplication;
 
 public class UserManagement {
     private final WebApplication app;

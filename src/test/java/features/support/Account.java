@@ -1,4 +1,4 @@
-package workshop;
+package features.support;
 
 public class Account {
 
